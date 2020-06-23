@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (4.8.2)
+  - GoogleMaps (3.0.3):
+    - GoogleMaps/Maps (= 3.0.3)
+  - GoogleMaps/Base (3.0.3)
+  - GoogleMaps/Maps (3.0.3):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.0.3):
+    - GoogleMaps (= 3.0.3)
+    - GooglePlaces (= 3.0.3)
+  - GooglePlaces (3.0.3):
+    - GoogleMaps/Base (= 3.0.3)
+  - HandyJSON (4.2.0)
+  - iOSDropDown (0.3.4)
+  - IQKeyboardManagerSwift (6.0.4)
+  - OpalImagePicker (2.0.0)
+  - RSSelectionMenu (5.3.2)
+  - SwiftOverlays (5.0.1)
+  - SwiftyJSON (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.2)
+  - GoogleMaps (= 3.0.3)
+  - GooglePlacePicker (= 3.0.3)
+  - GooglePlaces (= 3.0.3)
+  - HandyJSON (= 4.2.0)
+  - iOSDropDown
+  - IQKeyboardManagerSwift (= 6.0.4)
+  - OpalImagePicker (~> 2.0.0)
+  - RSSelectionMenu (~> 5.3.2)
+  - SwiftOverlays (~> 5.0.1)
+  - SwiftyJSON (= 3.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - HandyJSON
+    - iOSDropDown
+    - IQKeyboardManagerSwift
+    - OpalImagePicker
+    - RSSelectionMenu
+    - SwiftOverlays
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  GoogleMaps: fd5c9fa58871781b9fb94d4936f19c69fe60ce32
+  GooglePlacePicker: 02326873b8f923fc1f82ad694c33a625a8f6a728
+  GooglePlaces: f09e76993c9c3ee4af8f4f7f535bb94d6aa3b649
+  HandyJSON: 9dfc026c7d7adc1f0f8ba8b181495f0e0763b0f4
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  OpalImagePicker: efc91612ef5b3849314801f68fddc26200da9435
+  RSSelectionMenu: cd8e2d2b87f0ab0cefb22b69cb97eb44923373ed
+  SwiftOverlays: ab459ea9194b0e96aaccaa00e9ead1bf6d46eef1
+  SwiftyJSON: f57b2b44bc166617372d1c70773591fe9f0f5fd4
+
+PODFILE CHECKSUM: ed3c837a9ea985a84410534a8bf1f8803c3d6bc4
+
+COCOAPODS: 1.8.4

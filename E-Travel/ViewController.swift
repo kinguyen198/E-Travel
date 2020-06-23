@@ -17,4 +17,18 @@ class ViewController: UIViewController {
 
 
 }
+extension UIViewController {
+    func hideNavigationBar(){
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
+        print("hide navigation")
 
+    }
+
+    func showNavigationBar() {
+        // Show the navigation bar on other view controllers
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
+        print("show navigation")
+    }
+
+}

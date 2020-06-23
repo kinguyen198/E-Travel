@@ -3,25 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		24E13B7F24A252130039A2DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B7E24A252130039A2DE /* AppDelegate.swift */; };
 		24E13B8124A252130039A2DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B8024A252130039A2DE /* ViewController.swift */; };
-		24E13B8424A252130039A2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E13B8224A252130039A2DE /* Main.storyboard */; };
 		24E13B8624A252160039A2DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E13B8524A252160039A2DE /* Assets.xcassets */; };
 		24E13B8924A252160039A2DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E13B8724A252160039A2DE /* LaunchScreen.storyboard */; };
+		24E13B9524A252910039A2DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24E13B9324A252910039A2DE /* Main.storyboard */; };
+		24E13B9724A252960039A2DE /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E13B9624A252960039A2DE /* CustomInfoWindow.xib */; };
+		24E13BA224A252FF0039A2DE /* TripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9A24A252FE0039A2DE /* TripViewController.swift */; };
+		24E13BA324A252FF0039A2DE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9B24A252FF0039A2DE /* RegisterViewController.swift */; };
+		24E13BA424A252FF0039A2DE /* CustomInfoWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9C24A252FF0039A2DE /* CustomInfoWindow.swift */; };
+		24E13BA524A252FF0039A2DE /* MyTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9D24A252FF0039A2DE /* MyTripViewController.swift */; };
+		24E13BA624A252FF0039A2DE /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9E24A252FF0039A2DE /* ScheduleViewController.swift */; };
+		24E13BA724A252FF0039A2DE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13B9F24A252FF0039A2DE /* LoginViewController.swift */; };
+		24E13BA824A252FF0039A2DE /* DetailSpotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BA024A252FF0039A2DE /* DetailSpotViewController.swift */; };
+		24E13BA924A252FF0039A2DE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BA124A252FF0039A2DE /* MapViewController.swift */; };
+		24E13BB824A253330039A2DE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAA24A253320039A2DE /* Category.swift */; };
+		24E13BB924A253330039A2DE /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAB24A253320039A2DE /* Spot.swift */; };
+		24E13BBA24A253330039A2DE /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAC24A253320039A2DE /* Place.swift */; };
+		24E13BBB24A253330039A2DE /* MyTripTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAD24A253320039A2DE /* MyTripTableViewCell.swift */; };
+		24E13BBC24A253330039A2DE /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAE24A253320039A2DE /* ImageCollectionViewCell.swift */; };
+		24E13BBD24A253330039A2DE /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BAF24A253320039A2DE /* Trip.swift */; };
+		24E13BBE24A253330039A2DE /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB024A253320039A2DE /* ScheduleTableViewCell.swift */; };
+		24E13BBF24A253330039A2DE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB124A253320039A2DE /* TableViewCell.swift */; };
+		24E13BC124A253330039A2DE /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB324A253320039A2DE /* CustomMarkerView.swift */; };
+		24E13BC224A253330039A2DE /* SubCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB424A253330039A2DE /* SubCategory.swift */; };
+		24E13BC324A253330039A2DE /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB524A253330039A2DE /* Schedule.swift */; };
+		24E13BC424A253330039A2DE /* ImageSpotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB624A253330039A2DE /* ImageSpotCollectionViewCell.swift */; };
+		24E13BC524A253330039A2DE /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BB724A253330039A2DE /* CurrentWeather.swift */; };
+		24E13BCA24A2537A0039A2DE /* ForecastService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BC724A2537A0039A2DE /* ForecastService.swift */; };
+		24E13BCB24A2537A0039A2DE /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BC824A2537A0039A2DE /* APIUrl.swift */; };
+		24E13BCE24A255860039A2DE /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BCD24A255850039A2DE /* DirectionViewController.swift */; };
+		24E13BD024A255C50039A2DE /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E13BCF24A255C50039A2DE /* Reachability.swift */; };
+		24E13BD624A25B4E0039A2DE /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24E13BD224A25B4D0039A2DE /* Lato-Bold.ttf */; };
+		24E13BD724A25B4E0039A2DE /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 24E13BD324A25B4E0039A2DE /* Lato-Black.ttf */; };
+		24E13BDC24A265500039A2DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24E13BDB24A265500039A2DE /* Images.xcassets */; };
+		24E13BDE24A26D830039A2DE /* CustomInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E13BDD24A26D830039A2DE /* CustomInfoWindow.xib */; };
+		A07A8CE41D0A57258BABA167 /* Pods_E_Travel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112B55068CA4C3183A5D915D /* Pods_E_Travel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112B55068CA4C3183A5D915D /* Pods_E_Travel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_E_Travel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E189ED241F4C23C8433CF7 /* Pods-E-Travel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Travel.release.xcconfig"; path = "Target Support Files/Pods-E-Travel/Pods-E-Travel.release.xcconfig"; sourceTree = "<group>"; };
 		24E13B7B24A252130039A2DE /* E-Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E13B7E24A252130039A2DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24E13B8024A252130039A2DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		24E13B8324A252130039A2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24E13B8524A252160039A2DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24E13B8824A252160039A2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24E13B8A24A252160039A2DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E13B9424A252910039A2DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../e-Travel /Views/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		24E13B9624A252960039A2DE /* CustomInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomInfoWindow.xib; path = "../../e-Travel /Views/CustomInfoWindow.xib"; sourceTree = "<group>"; };
+		24E13B9A24A252FE0039A2DE /* TripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripViewController.swift; path = "../../../e-Travel /Controllers/TripViewController.swift"; sourceTree = "<group>"; };
+		24E13B9B24A252FF0039A2DE /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = "../../../e-Travel /Controllers/RegisterViewController.swift"; sourceTree = "<group>"; };
+		24E13B9C24A252FF0039A2DE /* CustomInfoWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomInfoWindow.swift; path = "../../../e-Travel /Controllers/CustomInfoWindow.swift"; sourceTree = "<group>"; };
+		24E13B9D24A252FF0039A2DE /* MyTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTripViewController.swift; path = "../../../e-Travel /Controllers/MyTripViewController.swift"; sourceTree = "<group>"; };
+		24E13B9E24A252FF0039A2DE /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleViewController.swift; path = "../../../e-Travel /Controllers/ScheduleViewController.swift"; sourceTree = "<group>"; };
+		24E13B9F24A252FF0039A2DE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "../../../e-Travel /Controllers/LoginViewController.swift"; sourceTree = "<group>"; };
+		24E13BA024A252FF0039A2DE /* DetailSpotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailSpotViewController.swift; path = "../../../e-Travel /Controllers/DetailSpotViewController.swift"; sourceTree = "<group>"; };
+		24E13BA124A252FF0039A2DE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "../../../e-Travel /Controllers/MapViewController.swift"; sourceTree = "<group>"; };
+		24E13BAA24A253320039A2DE /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = "../../e-Travel /Models/Category.swift"; sourceTree = "<group>"; };
+		24E13BAB24A253320039A2DE /* Spot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spot.swift; path = "../../e-Travel /Models/Spot.swift"; sourceTree = "<group>"; };
+		24E13BAC24A253320039A2DE /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = "../../e-Travel /Models/Place.swift"; sourceTree = "<group>"; };
+		24E13BAD24A253320039A2DE /* MyTripTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTripTableViewCell.swift; path = "../../e-Travel /Models/MyTripTableViewCell.swift"; sourceTree = "<group>"; };
+		24E13BAE24A253320039A2DE /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = "../../e-Travel /Models/ImageCollectionViewCell.swift"; sourceTree = "<group>"; };
+		24E13BAF24A253320039A2DE /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Trip.swift; path = "../../e-Travel /Models/Trip.swift"; sourceTree = "<group>"; };
+		24E13BB024A253320039A2DE /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScheduleTableViewCell.swift; path = "../../e-Travel /Models/ScheduleTableViewCell.swift"; sourceTree = "<group>"; };
+		24E13BB124A253320039A2DE /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = "../../e-Travel /Models/TableViewCell.swift"; sourceTree = "<group>"; };
+		24E13BB324A253320039A2DE /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomMarkerView.swift; path = "../../e-Travel /Models/CustomMarkerView.swift"; sourceTree = "<group>"; };
+		24E13BB424A253330039A2DE /* SubCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SubCategory.swift; path = "../../e-Travel /Models/SubCategory.swift"; sourceTree = "<group>"; };
+		24E13BB524A253330039A2DE /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Schedule.swift; path = "../../e-Travel /Models/Schedule.swift"; sourceTree = "<group>"; };
+		24E13BB624A253330039A2DE /* ImageSpotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSpotCollectionViewCell.swift; path = "../../e-Travel /Models/ImageSpotCollectionViewCell.swift"; sourceTree = "<group>"; };
+		24E13BB724A253330039A2DE /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CurrentWeather.swift; path = "../../e-Travel /Models/CurrentWeather.swift"; sourceTree = "<group>"; };
+		24E13BC724A2537A0039A2DE /* ForecastService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForecastService.swift; path = "../../../thư mục không có tiêu đề/e-Travel /Service/ForecastService.swift"; sourceTree = "<group>"; };
+		24E13BC824A2537A0039A2DE /* APIUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIUrl.swift; path = "../../../thư mục không có tiêu đề/e-Travel /Service/APIUrl.swift"; sourceTree = "<group>"; };
+		24E13BCD24A255850039A2DE /* DirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DirectionViewController.swift; path = "../../../e-Travel /Controllers/DirectionViewController.swift"; sourceTree = "<group>"; };
+		24E13BCF24A255C50039A2DE /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = "../../thư mục không có tiêu đề/e-Travel /Reachability.swift"; sourceTree = "<group>"; };
+		24E13BD224A25B4D0039A2DE /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../thư mục không có tiêu đề/e-Travel /Lato-Bold.ttf"; sourceTree = "<group>"; };
+		24E13BD324A25B4E0039A2DE /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "../../thư mục không có tiêu đề/e-Travel /Lato-Black.ttf"; sourceTree = "<group>"; };
+		24E13BDB24A265500039A2DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		24E13BDD24A26D830039A2DE /* CustomInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomInfoWindow.xib; path = "../../thư mục không có tiêu đề/e-Travel /Views/CustomInfoWindow.xib"; sourceTree = "<group>"; };
+		73351DC1DDD7C0836382D263 /* Pods-E-Travel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-Travel.debug.xcconfig"; path = "Target Support Files/Pods-E-Travel/Pods-E-Travel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07A8CE41D0A57258BABA167 /* Pods_E_Travel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +105,8 @@
 			children = (
 				24E13B7D24A252130039A2DE /* E-Travel */,
 				24E13B7C24A252130039A2DE /* Products */,
+				87DC939CABC177DCA3959B0D /* Pods */,
+				F7076A11EA9140E2FB1BA922 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +121,93 @@
 		24E13B7D24A252130039A2DE /* E-Travel */ = {
 			isa = PBXGroup;
 			children = (
+				24E13BD324A25B4E0039A2DE /* Lato-Black.ttf */,
+				24E13BD224A25B4D0039A2DE /* Lato-Bold.ttf */,
+				24E13BCF24A255C50039A2DE /* Reachability.swift */,
+				24E13BC624A2535B0039A2DE /* Service */,
+				24E13B9224A252830039A2DE /* Views */,
+				24E13B9924A252BB0039A2DE /* Model */,
+				24E13B9824A252A90039A2DE /* Controller */,
 				24E13B7E24A252130039A2DE /* AppDelegate.swift */,
 				24E13B8024A252130039A2DE /* ViewController.swift */,
-				24E13B8224A252130039A2DE /* Main.storyboard */,
 				24E13B8524A252160039A2DE /* Assets.xcassets */,
 				24E13B8724A252160039A2DE /* LaunchScreen.storyboard */,
 				24E13B8A24A252160039A2DE /* Info.plist */,
+				24E13BDB24A265500039A2DE /* Images.xcassets */,
 			);
 			path = "E-Travel";
+			sourceTree = "<group>";
+		};
+		24E13B9224A252830039A2DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				24E13B9324A252910039A2DE /* Main.storyboard */,
+				24E13BDD24A26D830039A2DE /* CustomInfoWindow.xib */,
+				24E13B9624A252960039A2DE /* CustomInfoWindow.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		24E13B9824A252A90039A2DE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24E13BCD24A255850039A2DE /* DirectionViewController.swift */,
+				24E13B9F24A252FF0039A2DE /* LoginViewController.swift */,
+				24E13B9B24A252FF0039A2DE /* RegisterViewController.swift */,
+				24E13B9D24A252FF0039A2DE /* MyTripViewController.swift */,
+				24E13B9E24A252FF0039A2DE /* ScheduleViewController.swift */,
+				24E13B9A24A252FE0039A2DE /* TripViewController.swift */,
+				24E13BA124A252FF0039A2DE /* MapViewController.swift */,
+				24E13BA024A252FF0039A2DE /* DetailSpotViewController.swift */,
+				24E13B9C24A252FF0039A2DE /* CustomInfoWindow.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24E13B9924A252BB0039A2DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24E13BAA24A253320039A2DE /* Category.swift */,
+				24E13BB724A253330039A2DE /* CurrentWeather.swift */,
+				24E13BB324A253320039A2DE /* CustomMarkerView.swift */,
+				24E13BAE24A253320039A2DE /* ImageCollectionViewCell.swift */,
+				24E13BB624A253330039A2DE /* ImageSpotCollectionViewCell.swift */,
+				24E13BAD24A253320039A2DE /* MyTripTableViewCell.swift */,
+				24E13BAC24A253320039A2DE /* Place.swift */,
+				24E13BB524A253330039A2DE /* Schedule.swift */,
+				24E13BB024A253320039A2DE /* ScheduleTableViewCell.swift */,
+				24E13BAB24A253320039A2DE /* Spot.swift */,
+				24E13BB424A253330039A2DE /* SubCategory.swift */,
+				24E13BB124A253320039A2DE /* TableViewCell.swift */,
+				24E13BAF24A253320039A2DE /* Trip.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		24E13BC624A2535B0039A2DE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				24E13BC824A2537A0039A2DE /* APIUrl.swift */,
+				24E13BC724A2537A0039A2DE /* ForecastService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		87DC939CABC177DCA3959B0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73351DC1DDD7C0836382D263 /* Pods-E-Travel.debug.xcconfig */,
+				11E189ED241F4C23C8433CF7 /* Pods-E-Travel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F7076A11EA9140E2FB1BA922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112B55068CA4C3183A5D915D /* Pods_E_Travel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24E13B8D24A252160039A2DE /* Build configuration list for PBXNativeTarget "E-Travel" */;
 			buildPhases = (
+				A5ED1C63CDFC2984D4E5685D /* [CP] Check Pods Manifest.lock */,
 				24E13B7724A252130039A2DE /* Sources */,
 				24E13B7824A252130039A2DE /* Frameworks */,
 				24E13B7924A252130039A2DE /* Resources */,
+				963A5056CE5613CE57F1945D /* [CP] Embed Pods Frameworks */,
+				F19CF52D70F744CE4EDD67C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,41 +271,130 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E13BD724A25B4E0039A2DE /* Lato-Black.ttf in Resources */,
 				24E13B8924A252160039A2DE /* LaunchScreen.storyboard in Resources */,
+				24E13BDC24A265500039A2DE /* Images.xcassets in Resources */,
+				24E13BD624A25B4E0039A2DE /* Lato-Bold.ttf in Resources */,
+				24E13BDE24A26D830039A2DE /* CustomInfoWindow.xib in Resources */,
+				24E13B9524A252910039A2DE /* Main.storyboard in Resources */,
+				24E13B9724A252960039A2DE /* CustomInfoWindow.xib in Resources */,
 				24E13B8624A252160039A2DE /* Assets.xcassets in Resources */,
-				24E13B8424A252130039A2DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		963A5056CE5613CE57F1945D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5ED1C63CDFC2984D4E5685D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-Travel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F19CF52D70F744CE4EDD67C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-E-Travel/Pods-E-Travel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24E13B7724A252130039A2DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E13BCB24A2537A0039A2DE /* APIUrl.swift in Sources */,
+				24E13BA224A252FF0039A2DE /* TripViewController.swift in Sources */,
+				24E13BBA24A253330039A2DE /* Place.swift in Sources */,
+				24E13BC424A253330039A2DE /* ImageSpotCollectionViewCell.swift in Sources */,
+				24E13BC324A253330039A2DE /* Schedule.swift in Sources */,
+				24E13BA524A252FF0039A2DE /* MyTripViewController.swift in Sources */,
+				24E13BBF24A253330039A2DE /* TableViewCell.swift in Sources */,
+				24E13BA824A252FF0039A2DE /* DetailSpotViewController.swift in Sources */,
+				24E13BC124A253330039A2DE /* CustomMarkerView.swift in Sources */,
+				24E13BBD24A253330039A2DE /* Trip.swift in Sources */,
+				24E13BC224A253330039A2DE /* SubCategory.swift in Sources */,
+				24E13BC524A253330039A2DE /* CurrentWeather.swift in Sources */,
+				24E13BA924A252FF0039A2DE /* MapViewController.swift in Sources */,
 				24E13B8124A252130039A2DE /* ViewController.swift in Sources */,
+				24E13BD024A255C50039A2DE /* Reachability.swift in Sources */,
+				24E13BCA24A2537A0039A2DE /* ForecastService.swift in Sources */,
+				24E13BBC24A253330039A2DE /* ImageCollectionViewCell.swift in Sources */,
+				24E13BBB24A253330039A2DE /* MyTripTableViewCell.swift in Sources */,
 				24E13B7F24A252130039A2DE /* AppDelegate.swift in Sources */,
+				24E13BA724A252FF0039A2DE /* LoginViewController.swift in Sources */,
+				24E13BCE24A255860039A2DE /* DirectionViewController.swift in Sources */,
+				24E13BBE24A253330039A2DE /* ScheduleTableViewCell.swift in Sources */,
+				24E13BB924A253330039A2DE /* Spot.swift in Sources */,
+				24E13BA424A252FF0039A2DE /* CustomInfoWindow.swift in Sources */,
+				24E13BA624A252FF0039A2DE /* ScheduleViewController.swift in Sources */,
+				24E13BA324A252FF0039A2DE /* RegisterViewController.swift in Sources */,
+				24E13BB824A253330039A2DE /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		24E13B8224A252130039A2DE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24E13B8324A252130039A2DE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		24E13B8724A252160039A2DE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				24E13B8824A252160039A2DE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24E13B9324A252910039A2DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24E13B9424A252910039A2DE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,8 +518,10 @@
 		};
 		24E13B8E24A252160039A2DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73351DC1DDD7C0836382D263 /* Pods-E-Travel.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MVSD33QBN2;
 				INFOPLIST_FILE = "E-Travel/Info.plist";
@@ -289,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.E-Travel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-Travel1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,8 +538,10 @@
 		};
 		24E13B8F24A252160039A2DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E189ED241F4C23C8433CF7 /* Pods-E-Travel.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MVSD33QBN2;
 				INFOPLIST_FILE = "E-Travel/Info.plist";
@@ -307,7 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.E-Travel";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.e-Travel1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
