@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "icons8-map-marker-25.png",
+      "filename" : "ios11-weather-thunderstorm-icon.png",
       "scale" : "1x"
     },
     {
@@ -19,6 +19,9 @@
     "author" : "xcode"
   },
   "properties" : {
-    "template-rendering-intent" : "original"
+    "template-rendering-intent" : "original",
+    "on-demand-resource-tags" : [
+      "rain"
+    ]
   }
 }

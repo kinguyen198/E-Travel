@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  E-Travel
+//  e-Travel
 //
-//  Created by Kii Nguyen on 6/23/20.
+//  Created by Kii Nguyen on 2/19/20.
 //  Copyright © 2020 Kii Nguyen. All rights reserved.
 //
 
@@ -14,9 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
 
 }
+
 extension UIViewController {
     func hideNavigationBar(){
         // Hide the navigation bar on the this view controller
@@ -28,7 +29,7 @@ extension UIViewController {
     func showNavigationBar() {
         // Show the navigation bar on other view controllers
         self.navigationController?.setNavigationBarHidden(false, animated: true)
-        print("show navigation")
+         print("show navigation")
     }
 
 }

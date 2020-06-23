@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  E-Travel
+//  e-Travel
 //
-//  Created by Kii Nguyen on 6/23/20.
+//  Created by Kii Nguyen on 2/19/20.
 //  Copyright © 2020 Kii Nguyen. All rights reserved.
 //
 
@@ -10,18 +10,19 @@ import UIKit
 import GoogleMaps
 import GooglePlaces
 import IQKeyboardManagerSwift
+import Alamofire
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         GMSServices.provideAPIKey(APIKeyMap)
         GMSPlacesClient.provideAPIKey(APIKeyMap)
+        
         return true
+
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -46,6 +47,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
-
 }
+
 
